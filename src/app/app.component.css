@@ -1,0 +1,92 @@
+/*voy a utilizar colores diferentes en cada section o division para poder diferenciar las diferentes partes de la pagina*/
+
+/*header con cajas, el color aqua simboliza el fondo y el red el color de las cajas que contienen el 
+logo y los botones de inicio, peliculas, series e ingresar*/
+header{
+    background-color: rgb(245, 252, 217);
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+.logo{
+    margin: 10px;
+    margin-left: 30px;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+.botones-headerli{
+    background-color: red;
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+}
+.botones-header{
+    display: flex;
+    justify-content: end;
+    margin-right: 70px;
+}
+/*section para simular el titulo, el subtitulo y la barra de busqueda
+a diferencia de el anterior, utilize el color brown para simular las cajas
+y utilize un color un poquito mas oscuro que el anterior fondo para diferenciar las partes de la pagina */
+.titulo{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background-color:  rgb(243, 255, 193);
+}
+.h1titulo{
+    margin-left: 30px;
+    background-color: brown;
+    width: 100px;
+    height: 70px;
+}
+.h4subtitulo{
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: brown;
+    width: 100px;
+    height: 20px;
+}
+.barradebusqueda{
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: rgb(233, 133, 133);
+    width: 150px;
+    height: 20px;
+}
+/*boton de todos, series o peliculas*/
+.botonslider{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background-color:  rgb(223, 234, 180);
+}
+.botonslider2{
+    margin-left: 30px;
+    background-color: rgb(216, 82, 82);
+    width: 150px;
+    height: 20px;
+}
+/*texto de "todos*/
+.h2slider{
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: rgb(216, 82, 82);
+    width: 150px;
+    height: 20px;
+}
+/*tarjetas de peliculas*/
+.card-body{
+    background-color: rgb(153, 168, 94);
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+.card4{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    background-color: red;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
