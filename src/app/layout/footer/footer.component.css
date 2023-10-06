@@ -1,0 +1,7 @@
+.rectangulo{
+    margin-top: 100px;
+    height: 100px;
+    width: 500px;
+    border: solid 1px;
+    background-color: yellow;
+}
