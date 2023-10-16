@@ -1,0 +1,9 @@
+.imginicio{
+    width: 200px;
+    height: 300px;
+}
+.card{
+    border: solid black;
+    width: 200px;
+    margin: 10px;
+}

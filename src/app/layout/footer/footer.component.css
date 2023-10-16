@@ -1,7 +1,10 @@
-.rectangulo{
-    margin-top: 100px;
-    height: 100px;
-    width: 500px;
-    border: solid 1px;
-    background-color: yellow;
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(12, 18, 94);
+    color: rgb(161, 161, 161);
+}
+.footertext{
+    text-align: center;
+    padding: 15px;
 }

@@ -21,7 +21,9 @@ import { IngresarComponent } from './ingresar/ingresar.component';
   ],
   exports:[
     PeliculasComponent,
-    InicioComponent
+    InicioComponent,
+    SeriesComponent,
+    IngresarComponent
   ]
 })
 export class RoutesModule { }

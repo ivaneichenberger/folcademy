@@ -1,15 +1,23 @@
+
 header{
      width: 100%;
-     height: 70px;
-     background-color: violet;
-     color: white;
+     background-color: rgb(12, 18, 94);
+     color: rgb(161, 161, 161);
 
 }
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: end;
 }
 a{
-    color: white;
+    color: rgb(184, 184, 184);
+    padding: 25px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    padding: 10px;
 }
