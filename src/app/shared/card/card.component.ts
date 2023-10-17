@@ -14,7 +14,7 @@ interface movies_series {
 
 })
 export class CardComponent {
-  
+
   arrayInfoCard: movies_series[] = [
     {
       id: 1,
@@ -78,7 +78,7 @@ export class CardComponent {
       description: 'pelicula de marvel',
       image: '../../../assets/blackwidow.jpg',
       rating: 6.8,
-      category: 'pelicula',
+      category: 'serie',
     },
     {
       id: 9,
@@ -87,6 +87,30 @@ export class CardComponent {
       image: '../../../assets/blackwidow.jpg',
       rating: 6.8,
       category: 'pelicula',
+    },
+    {
+      id: 9,
+      name: 'Loki',
+      description: 'pelicula de marvel',
+      image: '../../../assets/blackwidow.jpg',
+      rating: 6.8,
+      category: 'serie',
+    },
+    {
+      id: 9,
+      name: 'Loki',
+      description: 'pelicula de marvel',
+      image: '../../../assets/blackwidow.jpg',
+      rating: 6.8,
+      category: 'pelicula',
+    },
+    {
+      id: 9,
+      name: 'Loki',
+      description: 'pelicula de marvel',
+      image: '../../../assets/blackwidow.jpg',
+      rating: 6.8,
+      category: 'serie',
     }
   ]
 
