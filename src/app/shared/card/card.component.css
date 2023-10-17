@@ -9,4 +9,5 @@
 }
 .cardsection{
     display: flex;
+    justify-content: space-between;
 }

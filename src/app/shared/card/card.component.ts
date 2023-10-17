@@ -23,7 +23,7 @@ export class CardComponent {
       category: 'pelicula',
     },
     {
-      id: 1,
+      id: 2,
       name: 'Loki',
       description: 'pelicula de marvel',
       image: '../../../assets/blackwidow.jpg',
@@ -31,7 +31,7 @@ export class CardComponent {
       category: 'serie',
     },
     {
-      id: 1,
+      id: 3,
       name: 'Loki',
       description: 'pelicula de marvel',
       image: '../../../assets/blackwidow.jpg',
@@ -39,7 +39,7 @@ export class CardComponent {
       category: 'pelicula',
     },
     {
-      id: 1,
+      id: 4,
       name: 'Loki',
       description: 'pelicula de marvel',
       image: '../../../assets/blackwidow.jpg',
@@ -47,7 +47,7 @@ export class CardComponent {
       category: 'serie',
     },
     {
-      id: 1,
+      id: 5,
       name: 'Loki',
       description: 'pelicula de marvel',
       image: '../../../assets/blackwidow.jpg',
@@ -55,7 +55,7 @@ export class CardComponent {
       category: 'pelicula',
     },
     {
-      id: 1,
+      id: 6,
       name: 'Loki',
       description: 'pelicula de marvel',
       image: '../../../assets/blackwidow.jpg',
@@ -63,7 +63,23 @@ export class CardComponent {
       category: 'serie',
     },
     {
-      id: 1,
+      id: 7,
+      name: 'Loki',
+      description: 'pelicula de marvel',
+      image: '../../../assets/blackwidow.jpg',
+      rating: 6.8,
+      category: 'pelicula',
+    },
+    {
+      id: 8,
+      name: 'Loki',
+      description: 'pelicula de marvel',
+      image: '../../../assets/blackwidow.jpg',
+      rating: 6.8,
+      category: 'pelicula',
+    },
+    {
+      id: 9,
       name: 'Loki',
       description: 'pelicula de marvel',
       image: '../../../assets/blackwidow.jpg',

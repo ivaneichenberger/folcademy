@@ -3,14 +3,27 @@ header{
      width: 100%;
      background-color: rgb(12, 18, 94);
      color: rgb(161, 161, 161);
-
+     padding-bottom: 30px;
+     padding-left: 30px;
 }
-nav{
+.navprincipal{
     display: flex;
     align-items: center;
     justify-content: end;
 }
-a{
+.navchiquito{
+    display: flex;
+}
+.navchiquitodiv{
+    background-color: rgb(65, 73, 197);
+    padding: 15px;
+    border-radius: 10px;
+}
+.linknavchiquito{
+    color: rgb(184, 184, 184);
+    padding: 20px;
+}
+.linknavprincipal{
     color: rgb(184, 184, 184);
     padding: 25px;
 }
