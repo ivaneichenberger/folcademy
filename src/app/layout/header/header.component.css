@@ -5,11 +5,13 @@ header{
      color: rgb(161, 161, 161);
      padding-bottom: 30px;
      padding-left: 30px;
+     
 }
 .navprincipal{
     display: flex;
     align-items: center;
     justify-content: end;
+    flex-wrap: wrap;
 }
 .navchiquito{
     display: flex;
