@@ -1,9 +1,11 @@
 <section class="cardsection">
-    <div class="card" *ngFor="let card of arrayInfoCard">
-        <img class="imginicio" src="{{card.image}}" alt="">
-        <h2>{{card.name}}</h2>
-        <p>{{card.description}}</p>
-        <p>{{card.rating}}</p>
-        <p>{{card.category}}</p>
+    <div class="tarjeta">
+        <div class="card" *ngFor="let card of arrayInfoCard">
+           <img class="imginicio" src="{{card.image}}" alt="">
+           <h2>{{card.name}}</h2>
+           <p>{{card.description}}</p>
+           <p>{{card.rating}}</p>
+           <p>{{card.category}}</p>
+        </div>
     </div>
 </section>

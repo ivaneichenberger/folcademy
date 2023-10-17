@@ -1,13 +1,29 @@
 .imginicio{
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 500px;
 }
 .card{
     border: solid black;
-    width: 200px;
+    width: 300px;
     margin: 10px;
+
 }
 .cardsection{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    
+}
+  .tarjeta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Distribuye el espacio entre las tarjetas */
+    flex: 0 0 calc(80% - 10px); /* 33.33% significa 3 tarjetas por fila */
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+  }
+  
+img {
+    width: 265px;
+    height: 100%;
+    object-fit: cover;
 }

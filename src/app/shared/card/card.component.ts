@@ -11,8 +11,10 @@ interface movies_series {
   selector: 'app-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.css']
+
 })
 export class CardComponent {
+  
   arrayInfoCard: movies_series[] = [
     {
       id: 1,
