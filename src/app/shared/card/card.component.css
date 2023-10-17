@@ -7,3 +7,6 @@
     width: 200px;
     margin: 10px;
 }
+.cardsection{
+    display: flex;
+}
