@@ -15,6 +15,6 @@ import { CardpelisComponent } from './cardpelis/cardpelis.component';
   ],
   exports: [
     CardComponent
-  ]
+  ] 
 })
 export class SharedModule { }

@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutModule } from './layout/layout.module';
+import { RouterModule } from '@angular/router';
 import { RoutesModule } from './routes/routes.module';
 import { SharedModule } from './shared/shared.module';
-
+import { HttpClientModule } from '@angular/common/http'
 @NgModule({
   declarations: [
     AppComponent
@@ -16,8 +18,9 @@ import { SharedModule } from './shared/shared.module';
     AppRoutingModule,
     RoutesModule,
     LayoutModule,
-    SharedModule
-    
+    BrowserAnimationsModule,
+    SharedModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
