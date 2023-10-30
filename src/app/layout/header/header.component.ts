@@ -6,9 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  botonSeleccionado: number | null = null;
 
-  seleccionarBoton(boton: number) {
-    this.botonSeleccionado = boton;
-  }
 }
