@@ -111,6 +111,7 @@ export class CardComponent {
       rating: 6.8,
       category: 'serie',
     }
+    
   ]
 
 }
