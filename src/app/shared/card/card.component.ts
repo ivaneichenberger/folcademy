@@ -21,7 +21,7 @@ export class CardComponent {
       description: 'pelicula de marvel',
       image: '../../../assets/blackwidow.jpg',
       rating: 6.8,
-      category: 'pelicula',
+      category: 'pelicula', 
     },
     {
       id: 2,
