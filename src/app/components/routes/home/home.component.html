@@ -1,0 +1,45 @@
+<div class="">
+    <div class="">
+        <div class="">
+            <div class="">
+                <div>
+                    <h1>PelisUP</h1>
+                    <h6>Plataforma </h6>
+                </div>
+                <div class="">
+                    <app-search (handleSearchEvent)="searchFilm($event)"></app-search>
+                </div>
+                <div>
+                    <app-tab [active]="tabValue.value" (handleSelectOption)="getTabSelected($event)"
+                        [options]="optionsTab"></app-tab>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="">
+        <div class="">
+            <div>
+                <app-tab-preview [tabLabelSelected]="tabValue.label" [size]="listFilms.length"></app-tab-preview>
+            </div>
+            <ng-container *ngIf="isLoading; else loaded">
+                <div class="">
+                    <div class="" role="status">
+                        <span class="">Cargando :p</span>
+                    </div>
+                </div>
+            </ng-container>
+            <ng-template #loaded>
+                <div class="">
+                    <ng-container *ngFor="let movie of listFilms">
+                        <app-card [dataOfMovie]="movie"></app-card>
+                    </ng-container>
+                    <ng-container *ngIf="!listFilms.length">
+                        <p class="">ño results mi broder</p>
+                    </ng-container>
+                </div>
+            </ng-template>
+
+
+        </div>
+    </div>
+</div>

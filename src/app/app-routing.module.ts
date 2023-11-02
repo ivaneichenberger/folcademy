@@ -1,27 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { InicioComponent } from './routes/inicio/inicio.component';
-import { PeliculasComponent } from './routes/peliculas/peliculas.component';
-import { SeriesComponent } from './routes/series/series.component';
-import { IngresarComponent } from './routes/ingresar/ingresar.component';
+import { HomeComponent } from './components/routes/home/home.component';
 
-const routes: Routes = [{
-  path: "Inicio", component: InicioComponent
-},
-{
-  path: "Peliculas", component: PeliculasComponent
-},
-{
-  path: "Series", component: SeriesComponent
-},
-{
-  path: "Ingresar", component: IngresarComponent
-},
-
-{
-  path: "**",
-  redirectTo: "Inicio"
-}
+const routes: Routes = [
+  {
+    path: 'home',
+    component: HomeComponent
+  },
+  
+  {
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full'
+  }
 ];
 
 @NgModule({
