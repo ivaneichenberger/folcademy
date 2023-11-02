@@ -1,0 +1,29 @@
+.titleingresar{
+    color: aliceblue;
+}
+.text-link-register{
+    color:aquamarine;
+}
+.btn-custom{
+    background-color:blueviolet;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+.form{
+    display: flex;
+}
+span{
+    color: aliceblue;
+}
+.dossection{
+    display: flex;
+    justify-content: space-around;
+}
+.form{
+    padding: 10px;
+}
+.hombresito{
+    width: 300px;
+    height: 300px;
+}
