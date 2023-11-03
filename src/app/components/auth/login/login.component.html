@@ -1,22 +1,30 @@
-<div class="dossection">
-    <div class="form">
-        <img class="hombresito" src="../../../../assets/logo.png" alt="">
-    </div>
-    <div class="form">
-        <div class="segundo">
-            <h1 class="titleingresar">Ingresar</h1>
-            <div class="form">
-                <div class="segundo">
-                    <input type="email" placeholder="Email"><br>
-                    <input type="password" placeholder="Contraseña">
-                </div>
+<div class="h-custom-screen w-full">
+    <div class="d-flex h-100 justify-content-center">
+        <div class="row">
+            <div class="col-6">
+                <img src="../../../../assets/logo.png" class="w-50 h-100" alt="imagenlogin">
             </div>
-            <div>
-                <span> No tienes una cuenta?</span> <span class="text-link-register">Registrar</span>
+            <div class="col-6">
+                <form autocomplete="off" [formGroup]="loginFormGroup" (ngSubmit)="leerDatos()">
+                    <div class="d-flex flex-colum justify-content-center gap-4">
+                        <h1 class="text-white text-start">Ingresar</h1>
+
+                        <div class="d-flex flex-colum gap-2">
+
+                            <input formControlName="email" class="text-white background-custom" autocomplete="off" type="email"
+                                placeholder="Email">
+                            <input formControlName="password" class="text-white background-custom" autocomplete="off" type="password"
+                                placeholder="Contraseña">
+                        </div>
+
+                        <div class="text-white">No tienes una cuenta? <span class="text-link-register"><a
+                                    class="link-register" href="#">Registrar</a></span></div>
+                        <button [disabled]="loginFormGroup.invalid" type="button" class="text-withe btn-custom btn-primary">
+                            Ingresar
+                        </button>
+                    </div>
+                </form>
             </div>
-            <button type="button" class="btn-custom btn-primary">
-                Ingresar
-            </button>
         </div>
     </div>
 </div>
